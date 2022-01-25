@@ -2,32 +2,37 @@
 <html>
 <body>
     <section>
-    <form id="task">
+    <div id="task">
     <input type="text" id="fname" name="fname" value="Din syssla">
         <input type="submit" value="Lägg till"><br>
-    </form>
+    </div>
     
 
 
-<form id="main list">
+<div id="ytter-box">
     <h2>Att göra</h2>
-<ul>
-  <li><input type="text" id="fname" name="fname" value="" disabled>
-  <input type="submit" value="Ändra"><input type="submit" value="Färdig"><input type="submit" value="Radera"></li>
-  <li><input type="text" id="lname" name="lname" value="" disabled>
-  <input type="submit" value="Ändra"><input type="submit" value="Färdig"><input type="submit" value="Radera"></li>
-  <li><input type="text" id="lname" name="lname" value="" disabled>
-  <input type="submit" value="Ändra"><input type="submit" value="Färdig"><input type="submit" value="Radera"></li>
-</ul>
-</form> 
 
-<form id="finished list">
+    <div class="inner-box">
+    
+         <ul>
+           <li><input type="text" id="fname" name="fname" value="" disabled>
+            <input type="submit" value="Ändra"><input type="submit" value="Färdig"><input type="submit" value="Radera"></li>
+         </ul>
+
+    </div>
+
+</div> 
+
+<div id="finished list">
     <h2>Färdiga</h2>
-    <ul>
-    <li><input type="text" id="fname" name="fname" value="" disabled>
+
+    <div class="finished">
+        <ul>
+        <li><input type="text" id="fname" name="fname" value="" disabled>
         <input type="submit" value="Ändra"><input type="submit" value="Färdig"><input type="submit" value="Radera"></li>
-    </ul>
-</form>
+        </ul>
+    </div>
+</div>
 
 </section>
 
