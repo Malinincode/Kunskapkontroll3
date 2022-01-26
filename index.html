@@ -1,40 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
 <body>
-    <section id='listed items'>
+    <div id= "container";>
+       
     <div id="task">
-    <input type="text" id="fname" name="fname" value="Din syssla">
-        <input type="submit" value="Lägg till"><br>
+            <h2>Syssla</h2>
+            <input type="text" id="input-syssla" placeholder="Din syssla">
+            <button id= "button1">"Lägg till" </button>
     </div>
     
 
+<section id="ytter-box">
 
-<div id="ytter-box">
-    <h2>Att göra</h2>
-
-    <div class="inner-box">
+        <h2>Att göra</h2>
     
-         <ul>
-           <li><input type="text" name="fname" value="" disabled>
-            <input type="submit" value="Ändra"><input type="submit" value="Färdig"><input type="submit" value="Radera"></li>
+         <ul id= "todo">
          </ul>
-
-    </div>
-
-</div> 
-
-<div id="finished list">
-    <h2>Färdiga</h2>
-
-    <div class="finished">
-        <ul>
-        <li><input type="text" name="fname" value="" disabled>
-        <input type="submit" value="Ändra"><input type="submit" value="Färdig"><input type="submit" value="Radera"></li>
-        </ul>
-    </div>
-</div>
 
 </section>
 
+<section id="finished-list">
+   
+        <h2>Färdiga</h2>
+
+        <ul id="endlist">
+        </ul>
+  
+</section>
+</div>
+
+<script src="js/main.js"></script>
 </body>
 </html>
