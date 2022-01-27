@@ -36,12 +36,12 @@ firstButton1.addEventListener('click', function(e) {
     
         /* Om låst, öppnar upp samt ändrar text */  
         if(e.target.previousSibling.disabled){
-            input.disabled = false;
+            e.target.previousSibling.disabled = false;
             e.target.innerHTML = "Spara";
             
          /* Om öppen, stänger samt ändrar text */  
         } else {
-            input.disabled = true;
+            e.target.previousSibling.disabled = true;
             e.target.innerHTML = "Ändra";
         }
 
@@ -51,8 +51,11 @@ firstButton1.addEventListener('click', function(e) {
     readyButton.addEventListener('click', function(e){
        /*  console.log(readyButton) */
         console.log(e.target.parentNode)
+        console.log(e.target.parentNode.parentNode.parentNode.nextSibling.nextSibling.childNodes[3])
+        e.target.parentNode.parentNode.parentNode.nextSibling.nextSibling.childNodes[3].append(e.target.parentNode);
       /*   console.log(document.getElementById("container")) */
-
+      console.log(readyButton)
+      readyButton.remove();
 
 
     })
