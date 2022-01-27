@@ -47,7 +47,7 @@ firstButton1.addEventListener('click', function(e) {
 
     })
 
-
+    /* Färdigknapp klar och flyttar över till sista listan, tar då bort färdigknappen*/  
     readyButton.addEventListener('click', function(e){
        /*  console.log(readyButton) */
         console.log(e.target.parentNode)
@@ -55,8 +55,16 @@ firstButton1.addEventListener('click', function(e) {
         e.target.parentNode.parentNode.parentNode.nextSibling.nextSibling.childNodes[3].append(e.target.parentNode);
       /*   console.log(document.getElementById("container")) */
       console.log(readyButton)
-      readyButton.remove();
+      e.target.remove();
 
 
     })
+
+    /* raderar via knappen Radera */  
+    eraseButton.addEventListener('click', function(e){
+         console.log(e.target.parentNode)
+         e.target.parentNode.remove();
+ 
+     })
+
 })
