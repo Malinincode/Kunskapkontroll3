@@ -1,17 +1,17 @@
-let firstButton1 = document.getElementById("button1");
+let firstButton1 = document.getElementById("add-button");
 
 console.log(firstButton1)
 
 firstButton1.addEventListener('click', function() {
 
-let sysslor = document.createElement("li");
-document.getElementById("todo").append(sysslor);
+let newLi = document.createElement("li");
+document.getElementById("todo-list").append(newLi);
 
-let sysslorSomLista = document.createElement("input");
-sysslorSomLista.value = document.getElementById("input-syssla").value;
-sysslor.append(sysslorSomLista);
+let input = document.createElement("input");
+input.value = document.getElementById("input-syssla").value;
+newLi.append(input);
 
-let button2
-console.log(document.getElementById("todo"))
-
+let changeButton = document.createElement("button");
+changeButton.innerHTML = "Ändra";
+newLi.append(changeButton);
 })
