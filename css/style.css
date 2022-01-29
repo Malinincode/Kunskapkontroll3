@@ -1,17 +1,35 @@
+/* body {
+
+ background-image: url("/img/roses.jpg");
+ background-color: #cccccc;
+ height: 500px; 
+ width: 80vh;
+ background-position: center; 
+ background-repeat: no-repeat; 
+ background-size: cover; 
+
+}
+ */
+
+
+
 #container {
   
   border: 1px solid #333;
   font-family: "Sofia", sans-serif;
   font-size: 18px;
   background-color: rgb(238, 218, 194);
+  width: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 500px;
+  margin-right: 500px;
   border-radius: 20px;
 }
+
+
 
 #todo-section {
 
