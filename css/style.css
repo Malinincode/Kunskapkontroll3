@@ -1,1 +1,43 @@
+#container {
+  
+ /*  font-family: 'Comforter', cursive; */
+  border: 1px solid #333;
+  font-family: "Sofia", sans-serif;
+  font-size: 18px;
+  background-color: rgb(238, 218, 194);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 400px;
+  margin-right: 400px;
+  border-radius: 20px;
+}
 
+#todo-section {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(238, 218, 194);
+ 
+
+}
+
+#finished-section {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(238, 218, 194);
+
+ 
+
+}
+
+#add-botton{
+
+ 
+}
