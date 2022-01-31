@@ -1,18 +1,3 @@
-/* body {
-
- background-image: url("/img/roses.jpg");
- background-color: #cccccc;
- height: 500px; 
- width: 80vh;
- background-position: center; 
- background-repeat: no-repeat; 
- background-size: cover; 
-
-}
- */
-
-
-
 #container {
   
   border: 1px solid #333;
@@ -30,6 +15,13 @@
 }
 
 
+/* #add-button, #input-syssla  {
+position: relative;
+left: 0;
+
+
+} */
+
 
 #todo-section {
 
@@ -38,7 +30,6 @@
   align-items: center;
   flex-direction: column;
   background-color: rgb(238, 218, 194);
-
 }
 
 #finished-section {
