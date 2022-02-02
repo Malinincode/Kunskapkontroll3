@@ -14,15 +14,6 @@
   border-radius: 20px;
 }
 
-
-/* #add-button, #input-syssla  {
-position: relative;
-left: 0;
-
-
-} */
-
-
 #todo-section {
 
   display: flex;
@@ -41,4 +32,3 @@ left: 0;
   background-color: rgb(238, 218, 194);
 
 }
-
